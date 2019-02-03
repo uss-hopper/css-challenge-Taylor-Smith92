@@ -61,9 +61,50 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
-h1 {
-	color: lime;
+header, em {
+	background-color: black;
+	color: #72F94C;
 	font-family: "Andale Mono";
 }
 
+.container > .instructions-wrapper {
+	 display:flex;
+	 align-content: space-between;
+	 border: thick solid black;
+	 padding: 2rem;
+	 margin: 2rem;
+}
 
+.instructions-wrapper img {
+	width: 14em;
+	height: 10em;
+	margin: auto;
+	padding-left: 15vw;
+}
+
+img {
+	display: block;
+}
+
+.about-me {
+	display: flex;
+	flex-wrap: nowrap;
+	background-color:#0025f5;
+	color: #ffffff;
+}
+
+.about-me img {
+	border: #ffffff .1vh;
+	height: 20em;
+}
+
+.form-wrapper {
+	background-color: #286218;
+
+}
+
+tr {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+}
