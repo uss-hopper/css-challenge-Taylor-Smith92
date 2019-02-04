@@ -90,13 +90,14 @@ em {
 
 .instructions-wrapper img {
 	width: 14em;
-	height: 10em;
+	height: 12em;
 	margin: auto;
 	padding-left: 15vw;
 }
 
 .welcome-image {
 	margin-left: 18em;
+	margin-top: 4vw;
 }
 
 .about-me > .container{
