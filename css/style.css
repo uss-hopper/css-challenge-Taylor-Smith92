@@ -65,7 +65,7 @@ body{
 	font-family: "Andale Mono";
 }
 
-header, em {
+header {
 	background-color: black;
 	color: #72F94C;
 }
@@ -78,6 +78,10 @@ header .container {
 em {
 	margin-top: 2.5vw;
 	margin-left: 2.5vw;
+}
+
+span {
+	color: #fdf51f;
 }
 
 .instructions-wrapper {
@@ -101,6 +105,7 @@ em {
 }
 
 .about-me > .container{
+	width: 81vw;
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 30vw 1fr;
@@ -122,13 +127,12 @@ em {
 }
 
 .skillz {
-	margin-bottom: 3vw;
+	margin: 3vw 0 4vw;
 }
 
 .skillz > .container> h2 {
 	float: right;
 }
-
 
 table {
 	width: 100%;
@@ -149,6 +153,7 @@ td, th {
 }
 
 form > div {
+	width: 40%;
 	display: grid;
 	grid-gap: 1em;
 	margin-top: 1em;
@@ -162,13 +167,17 @@ form > div {
 
 button {
 	background-color: #72F94C;
+	border-color: #72F94C;
+	margin-top: 1vw;
+	padding: .5em 2em .5em;
 }
 
 footer {
-	background-color: #333333;
+	background-color: black;
 	color: white;
+	padding: 1vw;
 }
 
-footer > div > h4{
+footer > div > h4 {
 	margin-left: 17vw;
 }
