@@ -70,6 +70,16 @@ header, em {
 	color: #72F94C;
 }
 
+header .container {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+em {
+	margin-top: 2.5vw;
+	margin-left: 2.5vw;
+}
+
 .instructions-wrapper {
 	 display:flex;
 	 align-content: space-between;
