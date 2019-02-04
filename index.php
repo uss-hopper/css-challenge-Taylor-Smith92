@@ -25,7 +25,7 @@
 				<div class="container">
 
 					<!-- WELCOME IMAGE -->
-					<img src="images/welcome.gif" alt="welcome to my homepage">
+					<img src="images/welcome.gif" alt="welcome to my homepage" class="welcome-image">
 
 					<div class="instructions-wrapper">
 						<div class="instructions-content">
@@ -55,7 +55,7 @@
 			</section>
 
 			<!-- PROFESSIONAL SKILLZ -->
-			<section>
+			<section class="skillz">
 				<div class="container">
 					<h2>Summary of Profe$$ional Skillz</h2>
 					<table>
@@ -84,7 +84,7 @@
 			</section>
 
 			<!-- CONTACT FORM -->
-			<section>
+			<section class="footer">
 				<div class="container">
 					<div class="form-wrapper">
 						<h2>Contact Me! I <3 to fix printers!</h2>
@@ -95,7 +95,7 @@
 							</div>
 
 							<div>
-								<label for="emailEmail">Email</label>
+								<label for="email">Email</label>
 								<input type="email" name="email" id="email" />
 							</div>
 
