@@ -83,28 +83,44 @@ header, em {
 }
 
 img {
-	display: block;
+
 }
 
-.about-me {
-	display: flex;
-	flex-wrap: nowrap;
+.about-me > .container{
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 30vw 1fr;
+	grid-template-rows: 1fr;
 	background-color:#0025f5;
 	color: #ffffff;
+	padding: 2em 10em;
+}
+.about-me p {
+	width: 50vw;
+}
+.about-me img {
+	grid-row-start:1;
+	grid-row-end:4;
+	border: .3rem solid;
+	height: 18em;
 }
 
-.about-me img {
-	border: #ffffff .1vh;
-	height: 20em;
+
+table {
+	width: 100%;
+	background-color: #333333;
+	color: #72F94C;
+}
+
+th{
+
+}
+
+td {
+	padding: .25em;
 }
 
 .form-wrapper {
 	background-color: #286218;
-
-}
-
-tr {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr;
+	padding: inherit
 }
